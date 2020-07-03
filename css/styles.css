@@ -1,0 +1,138 @@
+.nav{
+    float: right;
+
+
+  }
+.navbar {
+    font-family: sans-serif;
+    
+
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.nav a {
+  font-family: sans-serif;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover{
+    color: red;
+    background-color: white;
+}
+.slideshow .mySlides{
+    height: 500px;
+
+}
+div.buttons button{
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.shadow-box{
+    font-family:sans-serif;
+    
+
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+
+    width: 100%;
+  
+}
+.shadow-box-items{
+    float: left;
+    text-align: center;
+
+
+}
+.shadow-box-items a{
+    font-family: sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 33px;
+    text-decoration: none;
+}
+#box1{
+  border: 1px solid;
+  padding: 45px;
+  box-shadow: 5px 10px #888888;
+}
+.container12 {
+    width: 970px !important;
+    }
+    .bottomdock{
+        width:100%;
+        z-index: 999;
+        background-color: #ffffff;
+        position: relative;
+        margin-bottom: -174px;
+        height: 146px;
+        margin-top: 30px; 
+        margin-left: 500px;
+    }
+    .box > ul{
+        text-align:center;
+        position:relative;
+        top:31px;
+    }
+    .box {
+        width:100%;
+        height:84px;
+        background:#FFF;
+        margin-bottom: 19px;
+    }
+    .effect2
+    {
+      position: relative;
+    }
+    .effect2:before, .effect2:after
+    {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 13px;
+        /* left: 10px; */
+        width: 50%;
+        top: 80%;
+        max-width: 300px;
+        background: #777;
+        -webkit-box-shadow: 0 16px 10px #777;
+        -moz-box-shadow: 0 16px 10px #777;
+        box-shadow: 0 13px 9px #777;
+        -webkit-transform: rotate(-3deg);
+        -moz-transform: rotate(-3deg);
+        -o-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+    }
+    .effect2:after
+    {
+      -webkit-transform: rotate(3deg);
+      -moz-transform: rotate(3deg);
+      -o-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+      transform: rotate(3deg);
+      right: 0;
+      left: auto;
+    }
+        
+
