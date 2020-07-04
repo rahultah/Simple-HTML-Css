@@ -11,13 +11,13 @@
 <ul class="navbar">
 
     
-    <li class="nav"><a href="#news"></a></li>
-    <li class="nav"><a href="#news"></a></li>
-    <li class="nav"><a href="#news"></a></li>
-    <li class="nav"><a href="#news"></a></li>
-    <li class="nav"><a class="active" href="#home">Home</a></li>
+    <li class="nav"><a href="#"></a></li>
+    <li class="nav"><a href="#"></a></li>
+    <li class="nav"><a href="#"></a></li>
+    <li class="nav"><a href="#"></a></li>
+    <li class="nav"><a class="active" href="index.html">Home</a></li>
     <li class="nav"><a href="contact.html">Contact</a></li>
-    <li class="nav"><a href="#about">About</a></li>
+    <li class="nav"><a href="order.html">Order Now</a></li>
     <li class="nav" style="float: left;"><div class="logo">
         <img src="https://cheesiaano.pizza/images/logo.png" alt="" width="100"/>
         </div></li>
@@ -30,12 +30,7 @@
   
     
   </div>
-<div class="buttons">
-    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 
-    <button class="button-right" onclick="plusDivs(-1)" style="">&#10094;</button>
-
-</div>
 <br><br><br><br><br><br>
 <div class="bottomdock" id="bottomdock1">
     <div class="container12">
@@ -58,6 +53,7 @@
           </ul>
     </div>
   </div>
+  <a href="order.html" class="button12 button3">Order NOW!!</a>
 
 
 
@@ -66,23 +62,23 @@
 
 
 
-  <script>var slideIndex = 1;
-    showDivs(slideIndex);
-    
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
-    
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length} ;
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      x[slideIndex-1].style.display = "block";
-    }</script>
+
+  <script>
+  var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+  </script>
     
 </body>
 </html>
