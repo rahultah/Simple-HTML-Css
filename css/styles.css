@@ -100,39 +100,23 @@ div.buttons button{
         background:#FFF;
         margin-bottom: 19px;
     }
-    .effect2
-    {
-      position: relative;
-    }
-    .effect2:before, .effect2:after
-    {
-        z-index: -1;
-        position: absolute;
-        content: "";
-        bottom: 13px;
-        /* left: 10px; */
-        width: 50%;
-        top: 80%;
-        max-width: 300px;
-        background: #777;
-        -webkit-box-shadow: 0 16px 10px #777;
-        -moz-box-shadow: 0 16px 10px #777;
-        box-shadow: 0 13px 9px #777;
-        -webkit-transform: rotate(-3deg);
-        -moz-transform: rotate(-3deg);
-        -o-transform: rotate(-3deg);
-        -ms-transform: rotate(-3deg);
-        transform: rotate(-3deg);
-    }
-    .effect2:after
-    {
-      -webkit-transform: rotate(3deg);
-      -moz-transform: rotate(3deg);
-      -o-transform: rotate(3deg);
-      -ms-transform: rotate(3deg);
-      transform: rotate(3deg);
-      right: 0;
-      left: auto;
-    }
-        
 
+        
+.sampletext{
+    text-align: center;
+}
+#seperate{
+    text-align: center !important;
+
+}
+#contact-form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-right: 300px;
+    padding-left: 300px;
+
+
+}
+input[type=text], select {
+    width: 100%;
+}
